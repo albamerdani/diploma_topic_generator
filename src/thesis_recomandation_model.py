@@ -2,8 +2,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 
-# Sample data loading
-df = pd.read_excel('diploma.xlsx')
+dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+# Step 1: Load data
+df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
 # Vectorization of the themes
 vectorizer = TfidfVectorizer(stop_words='english')

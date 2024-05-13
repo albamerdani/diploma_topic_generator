@@ -6,9 +6,11 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense, Embedding, Dropout
 from keras.callbacks import EarlyStopping
 from tensorflow.keras.optimizers import Adam
+import os
 
+dataset_path_file = os.path.join("dataset", "diploma.xlsx")
 # Step 1: Load data
-df = pd.read_excel('diploma.xlsx')  # Replace with your actual file path
+df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
 # Step 2: Text preprocessing
 # Combine all text data that the model should learn from

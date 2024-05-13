@@ -1,4 +1,16 @@
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, TextDataset, DataCollatorForLanguageModeling, Trainer, TrainingArguments
+import pandas as pd
+import os
+
+dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+# Step 1: Load data
+df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
+
+thesis_file = os.path.join("temp", "thesis_topics.txt")
+# Concatenate all thesis topics into a single text file
+with open(thesis_file, 'w', encoding='utf-8') as file:
+    for topic in df['theme']:
+        file.write(topic + "\n")
 
 # Load tokenizer and model
 model_name = 'gpt2'
