@@ -5,3 +5,7 @@ pandas
 sklearn
 keras
 tensorflow
+simpletransformers
+transformers
+datasets
+torch

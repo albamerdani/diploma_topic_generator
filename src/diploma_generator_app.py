@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
+from simpletransformers.language_generation import LanguageGenerationModel
 
 app = Flask(__name__)
 
@@ -30,16 +31,24 @@ def generate_text(seed_text, next_words, model, max_sequence_len):
         seed_text += " " + output_word
     return seed_text
 
-
+# API for LSTM model
 @app.route('/generate_thesis', methods=['POST'])
 def generate_thesis():
     data = request.get_json()
     seed_text = data['seed_text']
     next_words = int(data.get('next_words', 8))  # Default to 5 words if not specified
     max_sequence_len = 10  # You should adjust this based on how you trained your model
-
     generated_text = generate_text(seed_text, next_words, model, max_sequence_len)
     return jsonify({'generated_text': generated_text})
+
+
+# API for GPT2 model that is trained with DB
+@app.route('/generate_gpt', methods=['POST'])
+def generate_gpt():
+    data = request.get_json()
+    prompt = data.get('prompt', '')
+    generated_text = model.generate(prompt=prompt, max_length=50, num_return_sequences=1)
+    return jsonify({'generated_text': generated_text[0]})
 
 
 if __name__ == "__main__":
