@@ -1,54 +1,74 @@
+import pandas as pd
 import numpy as np
-import re
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.neural_network import MLPRegressor
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import Sequential
+from keras.layers import LSTM, Dense, Embedding, Dropout
+from keras.callbacks import EarlyStopping
+from tensorflow.keras.optimizers import Adam
 
-# Placeholder for data collection code
-thesis_titles = [
-    "A Study of Network Security Protocols",
-    "Web Application Development Best Practices",
-    "Introduction to Cryptography Techniques",
-    "Machine Learning Algorithms for Predictive Analysis",
-    "Internet of Things (IoT) Applications in Healthcare",
-    "Cloud Computing Architectures and Solutions",
-    "Operating System Design Principles",
-    "Game Development Strategies for Mobile Platforms",
-    "Mobile App Development Trends and Technologies"
-]
+# Step 1: Load data
+df = pd.read_excel('diploma.xlsx')  # Replace with your actual file path
 
-y_years = [2015, 2018, 2017, 2016, 2019, 2020, 2019, 2018, 2017]
-# Verify the target labels (years)
+# Step 2: Text preprocessing
+# Combine all text data that the model should learn from
+all_text = df['theme'].str.cat(sep=' ') #tema
 
-# Preprocess the titles by removing special characters and tokenizing
-def preprocess_title(title):
-    title = re.sub(r'[^\w\s]', '', title.lower())
-    return title.split()
+# Tokenization
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts([all_text])
+encoded = tokenizer.texts_to_sequences([all_text])[0]
 
-# Apply preprocessing to all thesis titles
-preprocessed_titles = [preprocess_title(title) for title in thesis_titles]
+# Determine vocabulary size
+vocab_size = len(tokenizer.word_index) + 1
+print('Vocabulary Size:', vocab_size)
 
-# Convert preprocessed titles into numerical features using Bag-of-Words
-vectorizer = CountVectorizer()
-X = vectorizer.fit_transform([' '.join(title) for title in preprocessed_titles])
+# Create sequences
+sequence_length = 10
+sequences = []
+for i in range(sequence_length, len(encoded)):
+    sequence = encoded[i-sequence_length:i+1]
+    sequences.append(sequence)
 
-# Train a neural network model for predicting the year
-year_model = MLPRegressor(hidden_layer_sizes=(3,1), activation='tanh', solver='adam', max_iter=2000)
-year_model.fit(X, y_years)  # Assuming you have target labels y, such as publication year
+sequences = np.array(sequences)
 
-# Process user input areas of interest
-user_areas_of_interest = ["network", "machine learning", "cloud"]
+# Split into X and y
+X, y = sequences[:,:-1], sequences[:,-1]
+y = np.eye(vocab_size)[y]  # One hot encoding
 
-# Preprocess and convert user input into numerical features
-user_input_features = vectorizer.transform([' '.join(user_areas_of_interest)])
+# Step 3: Model setup
+model = Sequential()
+model.add(Embedding(vocab_size, 10, input_length=sequence_length))
+model.add(LSTM(50, return_sequences=True))
+model.add(LSTM(50))
+model.add(Dense(50, activation='relu'))
+model.add(Dense(vocab_size, activation='softmax'))
 
-# Train a separate model for predicting the area
-area_model = MLPRegressor(hidden_layer_sizes=(2,), activation='relu', solver='adam', max_iter=2000)
-area_labels = np.arange(9)  # Assuming there are 9 areas
-area_model.fit(X, area_labels)
+# Compile the model
+model.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate=0.01), metrics=['accuracy'])
 
-# Predict the year and area
-predicted_year = year_model.predict(user_input_features)
-predicted_area = int(round(area_model.predict(user_input_features)[0]))  # Round and convert to integer
+# Summarize the model
+model.summary()
 
-print("Predicted year:", predicted_year)
-print("Predicted area index:", predicted_area)
+# Fit the model
+model.fit(X, y, epochs=100, verbose=2, callbacks=[EarlyStopping(monitor='loss', patience=5)])
+
+# Function to generate text
+def generate_text(seed_text, next_words, model, max_sequence_len):
+    for _ in range(next_words):
+        token_list = tokenizer.texts_to_sequences([seed_text])[0]
+        token_list = pad_sequences([token_list], maxlen=max_sequence_len, padding='pre')
+        predicted_probs = model.predict(token_list, verbose=0)
+        predicted_index = np.argmax(predicted_probs, axis=-1)[0]
+        output_word = ''
+        for word, index in tokenizer.word_index.items():
+            if index == predicted_index:
+                output_word = word
+                break
+        seed_text += " " + output_word
+    return seed_text
+
+model.save('thesis_generator_model.h5')
+
+# Generate a new theme
+#print(generate_text("web", 9, model, sequence_length))

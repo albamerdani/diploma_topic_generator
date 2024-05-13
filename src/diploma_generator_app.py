@@ -1,25 +1,46 @@
 from flask import Flask, request, jsonify
-from diploma_generator_model import model, vectorizer
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
+import numpy as np
 
-# Initialize Flask app
 app = Flask(__name__)
 
-# Define route for generating diploma thesis
+# Load the model (ensure this is in the same directory or specify the path)
+model = load_model('thesis_generator_model.h5')
+tokenizer_path = 'tokenizer.pkl'
+
+# Load your tokenizer
+import pickle
+
+with open(tokenizer_path, 'rb') as handle:
+    tokenizer = pickle.load(handle)
+
+
+def generate_text(seed_text, next_words, model, max_sequence_len):
+    for _ in range(next_words):
+        token_list = tokenizer.texts_to_sequences([seed_text])[0]
+        token_list = pad_sequences([token_list], maxlen=max_sequence_len, padding='pre')
+        predicted_probs = model.predict(token_list, verbose=0)
+        predicted_index = np.argmax(predicted_probs, axis=-1)[0]
+        output_word = ''
+        for word, index in tokenizer.word_index.items():
+            if index == predicted_index:
+                output_word = word
+                break
+        seed_text += " " + output_word
+    return seed_text
+
+
 @app.route('/generate_thesis', methods=['POST'])
 def generate_thesis():
-    # Get user input from request
-    user_input = request.json
-    user_areas_of_interest = user_input.get('areas_of_interest')
+    data = request.get_json()
+    seed_text = data['seed_text']
+    next_words = int(data.get('next_words', 8))  # Default to 5 words if not specified
+    max_sequence_len = 10  # You should adjust this based on how you trained your model
 
-    # Preprocess and convert user input into numerical features
-    user_input_features = vectorizer.transform([' '.join(user_areas_of_interest)])
+    generated_text = generate_text(seed_text, next_words, model, max_sequence_len)
+    return jsonify({'generated_text': generated_text})
 
-    # Generate a new thesis title based on user input
-    generated_title = model.predict(user_input_features)
 
-    # Return generated title as JSON response
-    return jsonify({'generated_title': generated_title.tolist()})
-
-# Run the Flask app
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=False)
