@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 
@@ -21,9 +22,19 @@ def recommend_themes(field1, field2):
     query_vec = vectorizer.transform([query])
     distances, indices = knn.kneighbors(query_vec)
 
+    entries = []
     # Fetch the themes that are closest to the query
     for index in indices[0]:
-        print(df['theme'].iloc[index])
+        year = df['year'].iloc[index]
+        theme = df['theme'].iloc[index]
+        entries.append((year, theme))
+
+    # Sort the list by year in descending order
+    entries_sorted = sorted(entries, reverse=True, key=lambda x: x[0])
+
+    # Print the sorted entries
+    for entry in entries_sorted:
+        print(entry[0], entry[1])
 
 # Example usage
 recommend_themes('network', 'security')
