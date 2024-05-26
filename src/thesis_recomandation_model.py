@@ -1,18 +1,18 @@
 import pandas as pd
-import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
+from matplotlib import pyplot as plt
 
+# Sample data loading
 dataset_path_file = os.path.join("dataset", "diploma.xlsx")
 # Step 1: Load data
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
 # Vectorization of the themes
 vectorizer = TfidfVectorizer(stop_words='english')
-X = vectorizer.fit_transform(df['theme']) #testime dhe me tema per temat shqip
+X = vectorizer.fit_transform(df['theme'])
 
 # Setup k-NN
-# experiment with the number of neighbors (n_neighbors) and the distance metric (e.g., Euclidean, Manhattan, cosine) to optimize the recommendations.
 knn = NearestNeighbors(n_neighbors=5, metric='cosine')
 knn.fit(X)
 
@@ -21,8 +21,20 @@ def recommend_themes(field1, field2):
     query = f"{field1} and {field2}"
     query_vec = vectorizer.transform([query])
     distances, indices = knn.kneighbors(query_vec)
+    similarities = 1 - distances
+
+    # Plotting the similarities
+    plt.figure(figsize=(8, 4))
+    plt.bar(range(len(similarities[0])), similarities[0], color='blue', alpha=0.7)
+    plt.title('Cosine Similarities for the Nearest Neighbors')
+    plt.xlabel('Neighbor Index')
+    plt.ylabel('Cosine Similarity')
+    plt.xticks(range(len(similarities[0])), labels=[titles[i] for i in indices[0]])
+    plt.xticks(rotation=45, ha="right")
+    plt.show()
 
     entries = []
+
     # Fetch the themes that are closest to the query
     for index in indices[0]:
         year = df['year'].iloc[index]

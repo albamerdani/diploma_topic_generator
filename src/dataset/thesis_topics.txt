@@ -1,0 +1,445 @@
+Comparison of algorithms in multiclass classification of images
+Automatic testing for Web applications
+SQL Injection
+Web application for online ticket booking for a travel agency
+In-depth study and implementation of a faculty management system
+Use of ontologies in e-commerce and their integration with that of modern web technologies
+Web platform for online booking and management of properties related to the hotel sector throughout Albania
+Online voting application, with security elements
+Classify images using Deep Learning in Java
+Breast Cancer Detection through Machine Learning
+Development of microchips for technology under the skin.
+Development and progress of marketing through websites and applications
+Realization of an application "REIS STORE" for an electronics store.
+Simulation of a virtual city
+Creating a Web application
+Systems Integration
+Build an application to manage the inventory of products in a warehouse
+Building a web application for managing a hospital's data
+Improving encryption techniques to increase network security
+Use of Arduino in robotics
+Building an E-commerce Web Application
+Creating a web application for online testing
+Web application for tourists in Albania
+Web application for free professions
+Study and implementation of an OJF  management system in Salesforce
+Taxonomy of IoT systems and the challenges of this technology
+Design responsive websites and applications.
+Quantum Computers
+Use and identification of the face for taking absences of students in educational institutions
+Detection of social distancing in favor of Covid-19
+Online student and faculty management application
+AWS S3 bucket access by a .Net MVC application and its analysis
+Security aspects of Microsoft Azure Cloud
+Internet Of Things application in automation of medical hardware devices
+Creating a Web Application for Online Testing and Tasks
+CMS platform for booking management.
+Data aggregation in distributed systems
+Efficiency of Web Servers in the Cloud
+Study of the e-business system and analysis of a methodology for their security
+Using Machine Learning algorithms to detect fake news
+Classification of spoken language using Deep - Learning
+Building a web application for distributing diploma topics
+DNS, ENS vulnerability and analysis of a MITM (man in the middle) attack on the network
+Technology Building in Finance or "Fintech"
+Use of Machine Learning in Financial Data
+Rebuilding of the FTI site
+Building a Content Management system (CMS)
+Web application for the management of the sale-purchase of real estate
+Building a secure CRM system
+Implementing a chatbot in the context of medical assistance
+Building a web application for assessing stress levels and managing statistics
+Building a web application for human resources
+Academic Website
+Building an Android application
+Build a responsive Web application for ongoing student assessment
+Development of a web application
+Hotel management system Built in Laravel
+Analysis of WDM optical networks
+Authentication and authorization in Microservice
+Optimization of Machine Learning prediction and classification algorithms
+Interoperability of integrated systems and their efficiency in relation to traffic volume, resource management and security.
+Optimization of Machine Learning prediction algorithms
+Design of an MPLS, VPN and TE network by analyzing reliability and resilience
+Construction of an "Alumni" management system
+"Cloud", "Fog" and "edge computing" in the IoT industry
+Web Application Data Management System application for sales unit
+The revolution and trends of Web technologies
+Malware Analysis, Implementation and Security
+Exploiting vulnerabilities in Web servers and preventing them
+System for managing sales in businesses
+Web application for creating a management system in a dental clinic.
+Security in data networks using Firewall.
+Maven vs Gradle: A case study of building a web application in Spring Boot
+Development of a Web application for the management of a dental clinic.
+Development and implementation of Linkup - social network for communication and interaction between users.
+Student data management system.
+Development of the online restaurant reservation system.
+Building a Blog Web Application using React, NodeJS and MySQL.
+IOT and Smart City
+Building an Animal Rescue web application using Spring and View JS.
+Realization of an experimental CNN model and a DlIB model in the field of eye tracking to identify in real time through a test-application the symptom 'Short Attenion Span'.
+Web application for managing a business.
+Model predictive control (MPC) in urban road system for dynamic traffic lights.
+Application of machine learning in test case prioritization in regression testing using Weka.
+Microsoft Dynamics 365 business center as an ERP system and Integration with other systems.
+Study and development of program for detection of semantic errors in SQL.
+Implementation of Eduroam
+Using NodeJS in distributed web processing.
+Java performance testing tools.
+Information security management system.
+Artificial Intelligence and Machine Learning techniques.
+Online ticket booking mechanism.
+Building an application for the management of a vaccination center.
+Movie Booking Tickets App Android application
+Web application for saving working hours
+Web application for finding daily jobs
+Creating a ChatBoT
+Web Application, NFT Marketplace
+Diploma Management System
+Privacy and security of D2D communication
+Web Application (E-Commerce)
+Implementing a fingerprint security program
+Web application
+Planning and uses of microservices architecture in Web applications
+Improving data privacy through the implementation of RSA in Steganography
+Handwritten character recognition using Deep learning
+System for managing the secretariat of a higher education institution
+Web application for data management in the sport of football
+Building a web application for listening to podcasts
+Web application
+Web application for creating cvs suitable to the requirements of applicants
+Spend Smart Android app
+Work process management system for a travel agency through the SAP ERP database
+Application of Machine Learning for emotion classification on text data.
+Application of Machine Learning techniques for sign language identification.
+Security in database systems, Implementation of techniques for their protection.
+Change data capture An overview of different CDC Technique for Data Replication, Real -Time Analytics and Data Warehousing 
+Application of artificial intelligence for the protection of data privacy.
+The application of the Random Forest Algorithm in predicting the final results in order to solve real problems
+Building an AL web application with Social Polling topics using Cloud tools
+Implementation of a CRM system for companies operating in the Call Center sector
+Design and implementation of a solution for cattle health monitoring system based on Cloud technologies
+Application of the genetic algorithm for scheduling tasks with the aim of saving energy
+Migrating an application from monolithic architecture to hybrid CQRS architecture : A case study in Net.Core
+Blockchain technology in electronic voting
+Building a web application for listening to podcasts
+A proposal of regression testing process in software development companies
+Real Estate Website Construction
+Analysis, Implementation and Security of systems against Malware.
+Student attendance system using bluetooth technology
+Development and implementation of a web application for efficient management of library resources and services
+Building a system for online learning
+Defense against cyber attacks
+The use of machine learning and deep learning algorithms for sentiment analysis
+Hospital visit management system
+WebServer Attack Defense Practices via NSM
+E-Commerce Web Application
+Building an ETL using microservices on Spring Boot and Apache Kafka
+Web Application (E-Commerce)
+Creating a Web Application using .NET and REACT JS
+Creating a Web Application using .NET and Angular
+Creating a Web Application Using Laravel
+Creating a recommendation system for music through the implementation of Machine Learning
+FTI HUB
+Analyzing a generative model and signal generation algorithms based on an urban context data corpus
+Building a responsive e-commerce website
+Churn Rate-Impact on Business
+Attendance Monitoring System
+Comparison of two machine learning models for predicting the success of start-ups
+Arduino: Implementing a Keypad Security Program
+Detecting fires and fires using Machine Learning
+Mobile application for reading electronic books
+Building a responsive web application for managing vehicle fines
+Construction of a neutral convolutional network capable of categorizing X-Ray images
+Creating a web application using HTML, CSS, JavaScript, Java SpringBoot and MySQL
+Building an Android application "Tirana Act" using Java
+Web application on Cloud infrastructure
+Standalone application for creating a lecture hall reservation system
+Application for the distribution of teaching practices
+Mobile application for tourist promotion of Tirana
+Desktop application for the management of human resources of the faculty of technology and information at UPT
+System for the promotion of professional services
+Detection of text written in the Albanian language
+Avoiding cheats in online games
+Building a Web Application "Chat Application" using SPRING and REACT
+Development of an Android application for Albanian travel enthusiasts (Albatros)
+The use of machine learning for the detection of tumors from MRI
+System for financing non-profit organizations
+Book Reader and Notes App Web Application
+Customer relationship management system
+System for managing and generating evidence
+E-Learning Platforms: The future of the world of education
+Program for the development of plagiarism in diploma theses
+Building an application for managing a hotel
+Building a web application using PHP, Laravel
+Electronic management platform for sports courses
+Development and progress of marketing through websites and applications
+Application of machine learning techniques for the prediction of heart diseases
+Applications of Eye Tracking
+Design and development of a functional and responsive website for an Internet Service Provider (ISP)
+Security of computer networks in relation to Big Data. Challenges and benefits of Big Data.
+Anime/Manga web application
+Task management system in a company
+Migration of a system from a Monolithic architecture to Microservices
+Study on the Elastic Search search engine
+Studying Silhouettes for Gait Recognition Using Deep Learning
+Traffic light timing management through artificial intelligence
+Ranking of universities using majority judgment 
+Real –Time communication via WebSocket 
+Automated Quality Assurance in a corporate software
+The Management System of Health clinics in Albania based on the Laravel platform
+Building a system for document management in public administration based on a NoSQL database
+Study, analysis and integration of "Metaverse" in the real world
+Artificial Intelligence and the impact on data security
+Design, Implement and Secure Next Generation SD-WAN .
+Information Hiding Techniques in Steganographic Images
+Study of an IDS system based on machine learning algorithms
+Performance comparison of VMWare and KVM virtualization
+Study of Scheduling Algorithms in Cloud Computing
+Improved door security methods based on fingerprints
+The use of Deep Learning techniques for the recognition of the spoken Albanian language from audio signals
+Artificial intelligence in city transport
+Sentiment analysis of social network posts for informal Albanian through Artificial Intelligence techniques
+Architecture of an ISP
+Building a system for managing human resources of a corporation
+Challenges of computer networks in Albania
+Building a Web application for event management at the university.
+Implementation of LVS for increased availability and load balancing in Web and FTP services with RHEL5.2.
+Construction of a web application that manages electronic devices in order to monitor the safety of road transport by means of Angular and Spring Boot frameworks.
+Building a Responsive e-commerce Website.
+Rest API or GraphQL? API calls in a modern Web application.
+Artificial Intelligence in Robotics.
+Creating a Web Application using Spring Boot and Vue JS.
+Development of a voting system on Blockchain technology.
+Artificial Intelligence. The use of "Machine learning" algorithms for urban traffic management.
+Creation of a Web application for managing vacancies in companies and businesses.
+Web application for creating statistical reports of student grades.
+3D structure generation of organic compounds dynamically.
+Online sales application.
+Implementation and configuration of a VOIP network.
+Geo-social data extraction using the "SEED-DRIVEN" approach.
+Building a Blockchain Application in Web3.0.
+Web application for the management of Logistics and traffic of a city.
+Development of an e-commerce web application in Javascript.
+The Cyber Risk of Using Public Wi-Fi Demonstrating the Breaking of the CIA Triangle with a Denial of Service Attack
+The study of peer to peer systems
+2D game in Java for the Android platform
+Employee management system
+Predictive analysis of the impact of Albanians on the use of plastic using regression modeling in R.
+StudentBook a web application for student time management
+Analysis of greenhouse gas emissions and prediction of temperature increase with linear regression
+Study of VOIP technology ("Voice over IP")
+Mobile application "Personal tourist guide"
+Hacking Mobile Android Platforms and Malware Traffic Analysis
+Building a management system using the Django framework
+Implementation of the Client Server protocol
+Implementation of packet sniffing to monitor network traffic
+Cyber security and techniques for protection against attacks against it
+Cloud Elasticity
+Web application connected to an external server that uses web-scraping and automation
+Building a web application that combines a dental polyclinic with an online pharmacy
+Best practices for protecting against a WebServer attack using NSM
+Recommendation Systems
+IoT: Security and data flows
+Study of cache interference between virtual machines
+Web application for tourists in Albania
+Construction of a client-server web application that implements a chat system between clients with the mediation of the server
+Web Hacking
+THESISDONE: Development of a web application for the electronic processing of diplomas
+Development of "FOR-TECH" web application with ASP.NET core MVC technology
+Building a social application for travel management through flutter technologies
+Wireless network security: Creating a rogue access point
+Web application for the management of bars and restaurants in the city of Elbasan
+Web application similar to AirBnb
+Implementation of Text-To-Speech and Speech-To-Text Technologies using the JAVA programming language and the JAVA API
+Web employment application for Albanians living abroad
+Analysis and comparison of exception handling mechanisms in different languages (C, C++, Java, Python)
+Conception of the database model and creation of the web page of the travel agency
+Web application whose main purpose is to generate a test that provides information about which faculty is suitable based on the applicant's skills
+Creation of a web application for a dental clinic
+Building a system for managing online orders
+Security in cloud computing and the implementation of a hybrid encryption algorithm
+Development of a web and "native mobile" application for a Kickbox gym
+Building a web application for autism
+Android application (Smart Parking)
+Web application for skin care
+Building a Cross Platform mobile application
+FTIuni, the teaching management system for students (Web application)
+Building a chatbot in the Albanian language for the school secretary
+Web application at the service of the Latin Dance Academy "Love & Dance"
+Website for the sale of game accessories, equipment and video games
+Continuous Delivery system on the Microsoft Azure platform
+Cross-Platform mobile application
+The process of building a game prototype using the Unity Engine
+Construction and comparison of three models for predicting ratings through natural language processing
+Building a web app for online testing of students
+Building a robot that moves in a limited environment with obstacles
+The use of "Data Mining" techniques for analyzing the level of criminality
+Development of a web app for the management of a parking lot
+A web application for an online forum
+Transition mechanisms from IPv4 to IPv6
+Exposure of an operating system as a relational database with high performance
+Impact of Cookie Policy on Google Analytics
+Wireless network security
+The establishment of techniques for high availability that increase the efficiency of the performance of the use of resources in a data center using virtual systems
+Application and comparison of CNN architectures for CAPTCHA image detection
+Building a "desktop application" in C#
+Analysis of the construction and implementation of an HRM (Human Resource Management) system
+Implementation and management of a "Cluster" with high availability based on Hyper-V technology
+Innovations and advantages brought by the digital currency Bitcoin, and doubts about it
+Building a mobile application for android and IoS systems for parking in the city
+The use of machine learning algorithms to predict the evaluation of hotels in Albania on the basis of evaluations for foreign hotels
+Building a web application for sales management on the Oracle Application Express platform
+IoT implementation analysis and security assessment
+Analysis of malicious wireless traffic and interception of information exploiting its vulnerabilities.
+Automatic verification of identity card credentials using Tesseract OCR and OpenCV in Python
+Text classification through the application of neural networks
+Comparison of machine learning algorithms for distinguishing anomalies
+Detection of cyberbullying through deep learning in social networking platforms
+Image Processing Using Python
+Study of disk I/O performance degradation due to interference between Virtual Machines in Cloud Computing
+Development and study of a Rule Engine system through the Reactive Programming paradigm
+Creating a bike-sharing system using full-stack Javascript
+Wireless Hacking and measurement of detected vulnerabilities
+Security analysis in L2 and L3 layers and protective measures
+The use of replication in MYSQL and PostgreSQL database management systems to ensure High Availability and Fault Tolerance
+Old Mill android application
+Synthesizing the speech in the Albanian language through artificial neural networks
+Eventish android mobile app
+Application for Virtual Cinema.
+Using neutral convolutional networks for solving image-to-image translation problems.
+Reinforcement and imitation learning in three-dimensional simulations. Comparisons and analysis.
+Creating a game application.
+Mental health web app Accessible to people with disabilities.
+Recommender systems and implementation in a web application
+Web application for Calendar Converter
+Conception of an application for the management of an agrotourism.
+Analysis and security in networks and web servers.
+Mobile application for virtual book club.
+Creating a web application for managing songs.
+Classification of questions in the Albanian language using Deep Learning models.
+Application for preschool children for learning the Albanian language, numbers games and quizzes.
+Web Application for NFT Sales Store.
+Controlling environmental factors using Arduino.
+Building an E-Commerce system for pharmacy management.
+The conception of an application for the management of the register of students' grades in a higher education institution.
+Building a web application for online registration of vaccination against Covid-19.
+Establishing advanced policies and methodologies for data analysis and security in Big Data structures.
+Implementation of Injection techniques in the security of E-commerce sites.
+Comparison of XDebug and PCOV, tools for generating code coverage in PHP.
+Real Estate Website programmed in Django, Python.
+Building a web application for travel management.
+Face recognition attendance system
+Building a dynamic web application via Python and Javascript using the Django framework and hosting it on Amazon Web Services
+Scheduling of cloud resources by means of EC algorithms.
+Progressive Web Apps.Building TourMem progressive app in Node.js.
+Client application in Java according to the client-server architecture for communication and management of servers with application layer protocols.
+Cloud Computing: Integration Services.
+Virtual Reality: Market Trends and Future Challenges.
+Food- Order Aplikacion web
+Identifying suspicious transactions through a predictive model.
+Conception of a web application for the location of tourist attractions in Albania.
+Web application for online restaurant reservations.
+Virtual assistant built in object-oriented language.
+Text Classification and Clustering. 
+Building a web application in Spring (Java) and Angular (TypeScript)
+Development of a website that enables the identification of products of e-commerce businesses through the recognition and comparison of images.
+Design and Implementation of an online store. 
+Spoken Language Classification Using Deep Learning.
+Nutricious
+Implementation of Carcasonne Game in C++.
+Building a program for testing candidates in the driving school for the device with driving license and evidence.
+Web application for booking lesson times
+Building an internship web application using Spring,Boot and Angular -Managing job vacancies and internships providing business and career office functionalities. 
+Building a web application for professional practice with Spring and Agular technologies. Management of documentation and application opportunities for students as well as system admin functionalities. 
+Building a web application for professional practice with Spring and Agular technologies. Management of professional practice classes and student documentation by the university and the lecturer.
+Building an Easy Learning web application. 
+Internet of things and transmediality.
+Building an Android App for NFT.
+Building an elastic application in the cloud via Beanstalk.
+Identification of facial expressions through machine learning. 
+Detecting Parkinson's disease through Machine Learning. 
+Use of nanotechnology in IT.
+Plagiarism detection using text similarity algorithms and vector space model
+Web application for managing the sale and purchase of cars.
+Strategy for building a web application for online ordering using new technologies.
+Implementing network security - case study.
+Analysis and implementation in matlab of DES encryption of information.
+Phone game app based on UNITY.
+Conception of an application for the management of customers of a "Mobile" company.
+University Timetable Management System.
+Building an e-commerce web application.
+Application of Blockchain technology in the university system.
+Web application for software developers.
+Creation of an E-Commerce website.
+Building an application for purchasing electronic devices using MERN technologies.
+Creating a pharmacy distributor application
+Breast Cancer Prediction Using Machine Learning. 
+Building a web application for food diet control and programming with Spring Boot and Angular framework.
+Web application using the Spring MVC framework.
+Developing a web project with Nest.js.
+Conception of an application for Casino IP management (DRGT).
+Building an Ecommerce website for the online sale of a store's products.
+Conception of an application for managing a bank's ATM. 
+Conception of an application for online ticket management of a cinema
+Building a web application for reading and publishing articles.
+An e-commerce web application for PC and mobile system.
+Analysis of cyber attacks on computer networks and data encryption.
+Building a web application using MVC.
+Building a mobile application for E-Commerce (My Market).
+Building an application for managing the finance department's procedures in SAP ABAP.
+Security in Cloud Systems.
+Internet Security.
+Implementation of special security techniques supported in the OWASP TOP 10 architecture on a web page.
+Aplikacion web i ndërtuar në NET 6 Agroprice.
+Lan Detection System.
+Application of Microsoft technologies in the development of a finance application for SMEs.
+Building a social application for travel management.
+Prevention of Penetration of the CLOUD Service
+Security and Tracking in the most popular Albanian Websites on the Internet
+Design and Development of an application to help parents to monitor children's attendance at school
+Internet of Things (IOT) Security
+Blockchain technology and how to apply it in Supply Chain
+The architecture of a datalakehouse and its implementation
+Cloud Computing Load Forecasting
+NLP techniques in Artificial Intelligence
+Digitization of phytopathology with neural networks and autonomous aerial vehicles
+Building a mobile application for tracking and managing mental health symptoms
+Applications of Virtual Reality in Autism
+Weaknesses of Web-based applications and their password cracking techniques
+The use of Machine Leaning in the classification, visualization and analysis of data in TWITTER
+Automatic testing with Selenium. Difference between VS studio and IntelliJ.
+Comparison of methods for detecting prominent objects in images
+Reimbursement System for Electric cars
+VMWare Bare Metal, VMWare and KVM virtualization performance comparison
+Text Classification Using Artificial Intelligence
+Implementation and performance testing of the HADOOP system in virtualized environments
+Prevention, identification and reduction of advanced cyber attacks in real time by means of "Cyber Masking"
+Integrating a security and access platform for medicine on any web-i platform.
+Building a face recognition model to retrieve class attendance.
+Application of Deep Reinforcement Learning in Traffic Control.
+Application of Machine Learning mechanisms for Ransomware detection.
+Building a mobile application for organizing events using React-Native.
+Android Malware Detection Using Machine Learning Algorithms.
+Performance evaluation of applications on Docker and Kubernetes.
+Microservices, the transformation from monolithic architecture.
+Increasing the security of web applications through Obfuscation.
+Simulating a Self-Driving Car Using End-to-End Deep Learning in Keras.
+Implementation of wireless sensor networks in cnMaestro.
+ Evaluation and analysis of automated testing and artificial intelligence in software provision.
+ Comparison between Python and R languages for graphical presentation of data.
+ Google Trace workload analysis, comparison between two versions:years 2011 and 2019.
+ Creating an E-Commerce Application
+ Quantum Computers, and Presentation of the First Example of Deutch-Jozsa Quantum Algorithms
+ Creating  an application for managing a travel agency
+ Creating a web application for organizing student life.
+ Automatic testing for Web applications
+ Development of software for injecting packets into computer networks.
+ Creating an orthographic corrector for the Albanian language through Machine Learning
+ Generation of image descriptions in Albanian language.
+ Thesis for obtaining a Bachelor's degree in Computer Engineering
+ Implementation of a web application for publishing the original literature of the user.
+ Web Application to compare Rest and GRAPHQL
+ Web Application
+ Implementation of LVS to increase the availability and balance of load in Web services
