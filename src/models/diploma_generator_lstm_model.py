@@ -10,7 +10,7 @@ import os
 from matplotlib import pyplot as plt
 
 # Step 1: Load data
-dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+dataset_path_file = os.path.join("..", "dataset", "diploma.xlsx")
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
 # Step 2: Text preprocessing

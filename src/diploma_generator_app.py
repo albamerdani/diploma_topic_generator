@@ -7,7 +7,7 @@ from simpletransformers.language_generation import LanguageGenerationModel
 app = Flask(__name__)
 
 # Load the model (ensure this is in the same directory or specify the path)
-model = load_model('thesis_generator_model.h5')
+model = load_model('models\\thesis_generator_model.h5')
 tokenizer_path = 'tokenizer.pkl'
 
 # Load your tokenizer

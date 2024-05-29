@@ -39,7 +39,7 @@ def perplexity(y_true, y_pred):
     return perplexity
 
 # Load data
-dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+dataset_path_file = os.path.join("..", "dataset", "diploma.xlsx")
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
 # Text preprocessing

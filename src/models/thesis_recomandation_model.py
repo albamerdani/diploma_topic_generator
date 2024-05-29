@@ -2,9 +2,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 from matplotlib import pyplot as plt
+import os
 
 # Sample data loading
-dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+dataset_path_file = os.path.join("..", "dataset", "diploma.xlsx")
 # Step 1: Load data
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 

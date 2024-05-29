@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import string
@@ -8,7 +9,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 
 # Sample data loading
-dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+dataset_path_file = os.path.join("..", "dataset", "diploma.xlsx")
 # Step 1: Load data
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 

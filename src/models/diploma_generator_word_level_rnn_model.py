@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
@@ -8,7 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Embedding, Dropout
 
 # Sample data loading
-dataset_path_file = os.path.join("dataset", "diploma.xlsx")
+dataset_path_file = os.path.join("..", "dataset", "diploma.xlsx")
 # Step 1: Load data
 df = pd.read_excel(dataset_path_file)  # Replace with your actual file path
 
