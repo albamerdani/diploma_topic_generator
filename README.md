@@ -26,6 +26,12 @@ pip install -r requirements.txt
 pip install flask
 ```
 
+- Main file is diploma_generator_app.py. Start application using flask command or
+- 
+```bash
+python -m flask.
+```
+
 - After starting the flask app you can use curl command to test API calls and get different results based on your input data.
 ```bash
 curl -X POST http://localhost:5000/generate -H "Content-Type: application/json" -d "{\"seed_text\":\"deep learning\", \"next_words\": 11}"
