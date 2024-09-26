@@ -12,7 +12,10 @@ Used ML models:
 - Seq2Seq
 - k-NearestNegihbor
 
-    To install all necessary libraries use:
+
+- All models and tests are placed under diploma_generator_latest_notebook.ipynb file. You can test those using Google Colab or Jupiter notebook.
+
+- To install all necessary libraries use:
 
 ```bash
 pip install -r requirements.txt
