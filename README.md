@@ -27,7 +27,7 @@ pip install flask
 ```
 
 - Main file is diploma_generator_app.py. Start application using flask command or
-- 
+
 ```bash
 python -m flask.
 ```
