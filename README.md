@@ -13,7 +13,8 @@ Used ML models:
 - k-NearestNegihbor
 
 
-- All models and tests are placed under diploma_generator_latest_notebook.ipynb file. You can test those using Google Colab or Jupiter notebook.
+All models and tests are placed under diploma_generator_latest_notebook.ipynb file. You can test those using Google Colab or Jupiter notebook.
+
 
 - To install all necessary libraries use:
 
